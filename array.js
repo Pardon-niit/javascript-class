@@ -6,6 +6,7 @@ let c = new Array("book", "laptop", "television", "pen", "paper")
 let d = ["book", "laptop", "television", "pen", "paper"]
 // console.log(d)
 
+d[2] = "keys";
 // some array properties
 // .length
 
