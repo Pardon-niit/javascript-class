@@ -53,14 +53,14 @@ function even(num) {
     console.log(false);
   }
 }
-even(1);
-even(2);
-even(124);
-even(252);
-even(1521);
-even(242358890);
-even(12523);
-even(2231);
+// even(1);
+// even(2);
+// even(124);
+// even(252);
+// even(1521);
+// even(242358890);
+// even(12523);
+// even(2231);
 
 
 function nege(num){
@@ -71,7 +71,35 @@ function nege(num){
     }
 }
 
-nege(-37)
-nege(37)
-nege(-23)
-nege(23)
+// nege(-37)
+// nege(37)
+// nege(-23)
+// nege(23)
+
+
+// anonymous function 
+let mul = function(a, b){
+    return a * b;
+}
+
+let xyz = 20;
+let zyx = "xyz"
+// console.log(xyz + mul(2, 2) + zyx);
+
+// arrow function 
+let div = (a, b) => {
+    return a / b;
+}
+
+let div1 = (a, b) => a / b
+
+// console.log(div(10, 2));
+
+let even1 = x => {
+    if (x % 2 === 0){
+        console.log("even");
+    } else{
+        console.log("odd");
+    }
+}
+// let even2 = x => x % 2 ? console.log("even") :  console.log("odd");
